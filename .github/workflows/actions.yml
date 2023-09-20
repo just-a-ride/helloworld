@@ -1,4 +1,4 @@
-name: Build C++
+name: Build C
 
 on:
   push:
@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build project
-        run: gcc main.c
+        run: gcc main.c -lm
