@@ -9,8 +9,6 @@
 #include <stdbool.h>
 #include <unistd.h>
 
-#define ARRLEN(arr) (int)(sizeof(arr) / sizeof(arr[0]))
-
 int
 main(int argc, char **argv)
 {
