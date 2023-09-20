@@ -14,6 +14,7 @@
 int
 main(int argc, char **argv)
 {
+    printf("Hello World!\n");
     double result_array[256];
     double *arr = &result_array[0];
     size_t idx = 0;
